@@ -11,17 +11,18 @@ This project showcases a **custom image gallery section** in WordPress using **A
 - 🎯 Fully dynamic gallery powered by CPT (`gallery`)
 - 🖼️ Admin can upload images with title & alt text
 - 🔗 Each image opens in its own **dedicated single page**
-- 🌗 Clean, responsive UI with **Light/Dark Mode**
 - ⚙️ Designed with clean HTML/CSS (Tailwind optional for advanced UI)
 - 🆓 100% compatible with **ACF Free** version
 
 ---
 
-## 🧩 ACF Structure
+## 🧩 ACF Fields (Group)
 
-- `gallery_image` – *Image*
-- `caption` – *Text*
-- `alt_text` – *Text*
+| Field Name     | Type   | Description                |
+|----------------|--------|----------------------------|
+| `gallery_image`| Image  | Main gallery image         |
+| `caption`      | Text   | Short image caption        |
+| `alt_text`     | Text   | Custom alt attribute value |
 
 ---
 

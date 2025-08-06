@@ -1,0 +1,228 @@
+/*
+Theme Name: ACF Gallery Theme
+Theme URI: https://example.com/
+Author: Mahbub
+Author URI: https://example.com/
+Description: A lightweight WordPress theme with a custom gallery post type powered by ACF Free.
+Version: 1.0
+License: GPLv2 or later
+Text Domain: acf-gallery-theme
+*/
+
+/* ========================
+   🔹 1. Header Styles
+======================== */
+.site-header {
+    background-color: #253168;
+    padding: 1.5rem 1rem;
+    color: white;
+    position: relative;
+    top: -7px;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Full width header when needed */
+.site-header.full-width-header .header-container {
+    max-width: 100vw;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.site-title a {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #ffcc00;
+}
+
+/* Responsive header */
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-title a {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/* ========================
+   🔹 2. Gallery Archive Page
+======================== */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+
+/* ========================
+   🔹 3. Gallery Intro Text (Archive)
+======================== */
+.gallery-intro {
+    font-size: 1.125rem;
+    color: #1e3a8a;
+    background-color: #e0f2fe;
+    padding: 15px 20px;
+    border-left: 4px solid #3b82f6;
+    max-width: 800px;
+    margin: 20px auto 40px;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 1.6;
+}
+
+
+/* ========================
+   🔹 4. Single Gallery Page
+======================== */
+.single-gallery-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+
+/* ========================
+   🔹 5. Client CTA Section (used in Single page)
+======================== */
+.client-message-section {
+    background-color: #eaf4ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.client-message-section h2 {
+    color: #004e89;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.client-message-section p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.cta-button-wrapper {
+    margin-top: 1rem;
+}
+
+.cta-button {
+    background-color: #004e89;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background-color: #003766;
+    outline: none;
+}
+
+
+/* ========================
+   🔹 6. Footer Styles
+======================== */
+.site-footer {
+    background-color: #253168;
+    color: #eee;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.footer-contact a,
+.footer-contact span {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #00aaff;
+}
+
+.site-footer p {
+    margin: 8px 0;
+    line-height: 1.6;
+    color: #d4d4d6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
