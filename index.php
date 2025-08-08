@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-<main>
-    <h1>Welcome to ACF Gallery Theme</h1>
-    <p>This is the default index page.</p>
-</main>
+
+<h1 class="text-4xl font-bold text-green-600 text-center mt-10">
+  Hello from Customizer Hero Theme!
+</h1>
+
 <?php get_footer(); ?>
