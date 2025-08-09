@@ -16,27 +16,28 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 
 ---
 customizer-hero-theme/
-├── assets/                  # Static assets (images, fonts) – currently empty
-├── dist/                    # Compiled Tailwind CSS output
-│   └── style.css
-├── node_modules/            # NPM dependencies
-├── screenshots/             # Project screenshots
-│   ├── customizer-hero-settings.png
-│   ├── frontend-hero-section.png
-│   ├── npm-build-output.png
-│   └── theme-folder-structure.png
-├── src/                     # Tailwind CSS input files
-│   └── input.css
-├── footer.php               # Theme footer
-├── front-page.php           # Front page template
-├── functions.php            # Theme functions and Customizer API setup
-├── header.php               # Theme header
-├── index.php                # Main template file
-├── package.json             # NPM scripts and dependencies
-├── package-lock.json        # Locked NPM versions
-├── postcss.config.js        # PostCSS config for Tailwind CSS
-├── style.css                # Theme main stylesheet (optional)
-└── tailwind.config.js       # Tailwind CSS configuration
+├── assets/ # Static assets (images, fonts) – currently empty
+├── dist/ # Compiled Tailwind CSS output
+│ └── style.css
+├── node_modules/ # NPM dependencies
+├── screenshots/ # Project screenshots
+│ ├── customizer-hero-settings.png
+│ ├── frontend-hero-section.png
+│ ├── npm-build-output.png
+│ └── theme-folder-structure.png
+├── src/ # Tailwind CSS input files
+│ └── input.css
+├── footer.php # Theme footer
+├── front-page.php # Front page template
+├── functions.php # Theme functions and Customizer API setup
+├── header.php # Theme header
+├── index.php # Main template file
+├── package.json # NPM scripts and dependencies
+├── package-lock.json # Locked NPM versions
+├── postcss.config.js # PostCSS config for Tailwind CSS
+├── style.css # Theme main stylesheet (optional)
+└── tailwind.config.js # Tailwind CSS configuration
+
 ---
 
 ## Installation & Setup
