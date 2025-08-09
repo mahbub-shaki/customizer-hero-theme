@@ -4,7 +4,7 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 
 ---
 
-## Key Features
+## Key Features 
 
 - 🎯 Fully responsive and customizable Hero Section controlled via WordPress Customizer  
 - 🖋️ Admin can easily edit Hero Title, Subtitle, Button Text, and Button URL  
