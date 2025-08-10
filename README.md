@@ -20,27 +20,22 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 ## Folder Structure
 
 customizer-hero-theme/
-├── assets/ # Static assets (images, fonts) – currently empty
-├── dist/ # Compiled Tailwind CSS output
-│ └── style.css
-├── node_modules/ # NPM dependencies
-├── screenshots/ # Project screenshots
-│ ├── customizer-hero-settings.png
-│ ├── frontend-hero-section.png
-│ ├── npm-build-output.png
-│ └── theme-folder-structure.png
-├── src/ # Tailwind CSS input files
-│ └── input.css
-├── footer.php # Theme footer
-├── front-page.php # Front page template
-├── functions.php # Theme functions and Customizer API setup
-├── header.php # Theme header
-├── index.php # Main template file
-├── package.json # NPM scripts and dependencies
-├── package-lock.json # Locked NPM versions
-├── postcss.config.js # PostCSS config for Tailwind CSS
-├── style.css # Theme main stylesheet (optional)
-├── tailwind.config.js # Tailwind CSS configuration
+├── assets/
+├── dist/
+├── screenshots/
+├── src/
+├── .gitignore
+├── footer.php
+├── front-page.php
+├── functions.php
+├── header.php
+├── index.php
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── README.md
+├── style.css
+└── tailwind.config.js
 
 ---
 
@@ -60,7 +55,8 @@ Build Tailwind CSS assets:
 npm run build
 Activate the theme via WordPress Dashboard (Appearance > Themes).
 
-Customizer Usage
+## Customizer Usage
+
 Go to Appearance > Customize > Hero Section
 
 Update the following fields:
@@ -77,7 +73,7 @@ Click Publish to save changes
 
 Changes will reflect immediately on the frontend
 
-Development
+## Development
 To watch for CSS changes in real-time, run:
 
 npm run dev
@@ -114,9 +110,9 @@ An overview of the theme's folder and file organization.
 ![Theme Folder Structure](screenshots/theme-folder-structure.png)
 
 
-Portfolio & Contact
+## Portfolio & Contact
 This project is related to my Upwork portfolio:
-Mahbub’s Upwork Profile (Update the link with your actual profile)
+Mahbub’s Upwork Profile ([Update the link with your actual profile](https://www.upwork.com/freelancers/~015df70a23d7f58180?p=1386019951720890368))
 
 For any questions or support, feel free to contact me.
 
