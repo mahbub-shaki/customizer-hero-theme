@@ -14,105 +14,109 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 - 🆓 100% compatible with WordPress default Customizer and free Tailwind setup  
 - 🗂️ Prepared for version control and easy deployment via Git
 
+- 🎯 Fully dynamic gallery powered by CPT (`gallery`)  
+- 🖼️ Admin can upload images with title & alt text  
+- 🔗 Each image opens in its own **dedicated single page**  
+- ⚙️ Designed with clean HTML/CSS (Tailwind optional for advanced UI)  
+- 🆓 100% compatible with **ACF Free** version
+
 ---
-customizer-hero-theme/
-├── assets/ # Static assets (images, fonts) – currently empty
-├── dist/ # Compiled Tailwind CSS output
-│ └── style.css
-├── node_modules/ # NPM dependencies
-├── screenshots/ # Project screenshots
-│ ├── customizer-hero-settings.png
-│ ├── frontend-hero-section.png
-│ ├── npm-build-output.png
-│ └── theme-folder-structure.png
-├── src/ # Tailwind CSS input files
-│ └── input.css
-├── footer.php # Theme footer
-├── front-page.php # Front page template
-├── functions.php # Theme functions and Customizer API setup
-├── header.php # Theme header
-├── index.php # Main template file
-├── package.json # NPM scripts and dependencies
-├── package-lock.json # Locked NPM versions
-├── postcss.config.js # PostCSS config for Tailwind CSS
-├── style.css # Theme main stylesheet (optional)
-└── tailwind.config.js # Tailwind CSS configuration
+
+## 🧩 ACF Fields (Group)
+
+| Field Name     | Type   | Description                |
+|----------------|--------|----------------------------|
+| `gallery_image`| Image  | Main gallery image         |
+| `caption`      | Text   | Short image caption        |
+| `alt_text`     | Text   | Custom alt attribute value |
+
+---
+
+## Folder Structure
+
+customizer-hero-theme/  
+├── assets/                  # Static assets (images, fonts) – currently empty  
+├── dist/                    # Compiled Tailwind CSS output  
+│   └── style.css  
+├── node_modules/            # NPM dependencies  
+├── screenshots/             # Project screenshots  
+│   ├── customizer-hero-settings.png  
+│   ├── frontend-hero-section.png  
+│   ├── npm-build-output.png  
+│   └── theme-folder-structure.png  
+├── src/                     # Tailwind CSS input files  
+│   └── input.css  
+├── footer.php               # Theme footer  
+├── front-page.php           # Front page template  
+├── functions.php            # Theme functions and Customizer API setup  
+├── header.php               # Theme header  
+├── index.php                # Main template file  
+├── package.json             # NPM scripts and dependencies  
+├── package-lock.json        # Locked NPM versions  
+├── postcss.config.js        # PostCSS config for Tailwind CSS  
+├── style.css                # Theme main stylesheet (optional)  
+└── tailwind.config.js       # Tailwind CSS configuration  
 
 ---
 
 ## Installation & Setup
 
-1. Clone or download this repository to your WordPress themes directory:  
-   ```
-   git clone https://github.com/yourusername/customizer-hero-theme.git
-Navigate to the theme folder:
+1. Clone or download this repository to your WordPress themes directory:
 
+```bash
+git clone https://github.com/yourusername/customizer-hero-theme.git
 cd customizer-hero-theme
-Install npm dependencies:
-
 npm install
-Build Tailwind CSS assets:
-
 npm run build
-Activate the theme via WordPress Dashboard (Appearance > Themes).
 
-Customizer Usage
-Go to Appearance > Customize > Hero Section
+## Activate the Theme
+
+Activate the theme via WordPress Dashboard:  
+**Appearance > Themes**
+
+---
+
+## Customizer Usage
+
+Go to **Appearance > Customize > Hero Section**
 
 Update the following fields:
 
-Hero Title — Main heading of the hero section
+- **Hero Title** — Main heading of the hero section  
+- **Hero Subtitle** — Supporting text or tagline  
+- **Hero Button Text** — Call-to-action button text  
+- **Hero Button URL** — URL the button links to  
 
-Hero Subtitle — Supporting text or tagline
+Click **Publish** to save changes. Changes will reflect immediately on the frontend.
 
-Hero Button Text — Call-to-action button text
+---
 
-Hero Button URL — URL the button links to
+## Development
 
-Click Publish to save changes
-
-Changes will reflect immediately on the frontend
-
-Development
 To watch for CSS changes in real-time, run:
 
+```bash
 npm run dev
-Modify src/input.css for Tailwind custom styles
 
-Extend theme functionality by editing PHP template files
+Modify src/input.css for Tailwind custom styles.
+Extend theme functionality by editing PHP template files.
 
-## Screenshots
+Screenshots
+Customizer Hero Section Controls
+This screenshot shows the WordPress Customizer interface where you can modify the Hero Section settings.
 
-Below are screenshots demonstrating the theme setup and functionality:
+Frontend Hero Section Display
+This screenshot displays the Hero Section as it appears on the frontend of the website.
 
----
+Tailwind CSS Build Terminal Output
+This screenshot shows the terminal output after running the Tailwind CSS build command (npm run build).
 
-### Customizer Hero Section Controls  
-This screenshot shows the WordPress Customizer interface where you can modify the Hero Section settings.  
-![Customizer Hero Settings](screenshots/customizer-hero-settings.png)
-
----
-
-### Frontend Hero Section Display  
-This screenshot displays the Hero Section as it appears on the frontend of the website.  
-![Frontend Hero Section](screenshots/frontend-hero-section.png)
-
----
-
-### Tailwind CSS Build Terminal Output  
-This screenshot shows the terminal output after running the Tailwind CSS build command (`npm run build`).  
-![NPM Build Output](screenshots/npm-build-output.png)
-
----
-
-### Theme Folder and File Structure  
-An overview of the theme's folder and file organization.  
-![Theme Folder Structure](screenshots/theme-folder-structure.png)
-
+Theme Folder and File Structure
+An overview of the theme's folder and file organization.
 
 Portfolio & Contact
-This project is related to my Upwork portfolio:
-Mahbub’s Upwork Profile (Update the link with your actual profile)
+This project is related to my Upwork portfolio:(https://www.upwork.com/freelancers/~015df70a23d7f58180?p=1386019951720890368)
+Mahbub’s Upwork Profile
 
 For any questions or support, feel free to contact me.
 
