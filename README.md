@@ -20,7 +20,6 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 ## Folder Structure
 
 customizer-hero-theme/
-├── assets/
 ├── dist/
 ├── screenshots/
 ├── src/
