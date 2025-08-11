@@ -19,22 +19,24 @@ A modern WordPress theme built with **Tailwind CSS** featuring a dynamic Hero Se
 
 ## Folder Structure
 
-customizer-hero-theme/
-├── dist/
-├── screenshots/
-├── src/
-├── .gitignore
-├── footer.php
-├── front-page.php
-├── functions.php
-├── header.php
-├── index.php
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-├── README.md
-├── style.css
-└── tailwind.config.js
+Below is the updated folder structure for the theme as of **11 August 2025**:
+
+customizer-hero-theme/  
+├── dist/  
+├── screenshots/  
+├── src/  
+├── .gitignore  
+├── footer.php  
+├── front-page.php  
+├── functions.php  
+├── header.php  
+├── index.php  
+├── package.json  
+├── package-lock.json  
+├── postcss.config.js  
+├── README.md  
+├── style.css  
+└── tailwind.config.js  
 
 ---
 
@@ -109,9 +111,15 @@ An overview of the theme's folder and file organization.
 ![Theme Folder Structure](screenshots/theme-folder-structure.png)
 
 
+
 ## Portfolio & Contact
-This project is related to my Upwork portfolio:
-Mahbub’s Upwork Profile ([Update the link with your actual profile](https://www.upwork.com/freelancers/~015df70a23d7f58180?p=1386019951720890368))
+
+This project is part of my Upwork portfolio.
+
+**Mahbub’s Upwork Profile:**  
+[Click here to view my Upwork profile](https://www.upwork.com/freelancers/~015df70a23d7f58180?p=1386019951720890368)
+
+_Last updated: 2025-08-11_
 
 For any questions or support, feel free to contact me.
 
