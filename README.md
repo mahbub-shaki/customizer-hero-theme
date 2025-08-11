@@ -38,12 +38,12 @@ customizer-hero-theme/
 
 ---
 
+
 ## Installation & Setup
 
 1. Clone or download this repository to your WordPress themes directory:  
-   ```
+   ```bash
    git clone https://github.com/yourusername/customizer-hero-theme.git
-Navigate to the theme folder:
 
 cd customizer-hero-theme
 Install npm dependencies:
